@@ -1,0 +1,19 @@
+body {
+  margin: 0;  
+}
+
+#canvas-border{
+  margin: auto 0;
+  width:510px;
+  background-color: #E83635;
+  padding: 45px 75px 100px 75px;
+
+}
+
+
+canvas {
+  background-color:#FFF;
+  border-radius:10px;
+  border: 5px solid tomato;
+}
+

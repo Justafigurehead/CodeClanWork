@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_bright</item>
+        <item name="colorPrimaryDark">@android:color/holo_green_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorForeground">@android:color/darker_gray</item>
+        <item name="android:buttonStyle">@style/uiExperimentStyle</item>
+
+    </style>
+        <style name="uiExperimentStyle">
+            <item name="android:background">@color/darkGrey</item>
+            <item name="android:textColor">@color/lightText</item>
+            <item name="android:padding">5dp</item>
+            <item name="android:text">25sp</item>
+
+
+        </style>
+
+
+
+</resources>

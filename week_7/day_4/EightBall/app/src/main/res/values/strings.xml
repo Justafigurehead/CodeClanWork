@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Magic Eightball</string>
+    <string name="dev_name">"Michaela"</string>
+    <string name="question">Seek your answer...</string>
+    <string name="shake">Shake Me</string>
+    <string name="answer_activity_title">Eightball says &#8230;</string>
+    <string name="go_to_website">Go To Website</string>
+</resources>

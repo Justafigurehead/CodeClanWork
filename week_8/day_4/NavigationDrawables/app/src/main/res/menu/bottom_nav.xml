@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <menu xmlns:android = "http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_group_white_24dp"
+        android:id="@+id/friend"
+        android:enabled="true"
+        android:title="Friends"
+        app:showAsAction= "ifRoom"/>
+
+    <item
+        android:icon="@drawable/ic_music_note_white_24dp"
+        android:id="@+id/music"
+        android:enabled="true"
+        android:title="Music"
+        app:showAsAction= "ifRoom"/>
+
+    <item
+        android:icon="@drawable/ic_kitchen_white_24dp"
+        android:id="@+id/jam"
+        android:enabled="true"
+        android:title="Jam"
+        app:showAsAction= "ifRoom"/>
+</menu>

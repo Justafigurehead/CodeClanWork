@@ -1,0 +1,52 @@
+.grid {
+  /*border: 2px dashed steelblue;*/
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  flex: 1;
+  padding:10px;
+  border: 1px solid steelblue;
+  border-collapse: collapse;
+}
+
+/* display: flex - in grid-row where it is inheriting initially*/
+@media all and (min-width: 480px) {
+  .grid-row-sm {
+    flex-direction: row;
+  }
+
+}
+
+@media all and (min-width: 720px) {
+
+  .grid-row-md {
+    flex-direction: row;
+
+  }
+}
+
+@media all and (min-width: 960px) {
+    .grid-row-lg {
+      flex-direction: row;
+    }
+}
+
+.box-model {
+  background: lightgrey;
+  min-width:200px;
+  width: 30%;
+  padding:25px;
+  border: 25px solid green;
+  margin:25px;
+
+}
+
+.box-model p {
+  min-width:200px;
+
+}
